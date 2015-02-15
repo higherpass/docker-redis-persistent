@@ -1,5 +1,5 @@
 FROM phusion/baseimage
-MAINTAINER Fake <fake@fake.com>
+MAINTAINER Higherpass <git@higherpass.com>
 
 # Setup redis user
 RUN groupadd -r redis && useradd -r -g redis redis
